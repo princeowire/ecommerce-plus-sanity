@@ -31,6 +31,12 @@ export default {
       type: 'text',
     },
     {
+      name: 'detailedDescription',
+      title: 'Detailed Description',
+      type: 'text',  // or 'block' for rich text
+      description: 'Provide more detailed product information here.',
+    },
+    {
       name: 'category',
       title: 'Category',
       type: 'reference',
